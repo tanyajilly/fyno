@@ -1,0 +1,21 @@
+.btn {
+    display: flex;
+    padding: 0 12px 0 4px;
+    column-gap: 6px;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    font-size: 15px;
+    line-height: 30px;
+    background-color: transparent;
+    font-weight: 600;
+    cursor: pointer;
+
+    &-outline {
+        border-color: var(--border-color);
+        background: #fff;
+        &:hover {
+            background: #f2f2f7;
+        }
+    }
+}

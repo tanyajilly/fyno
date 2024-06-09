@@ -1,0 +1,7 @@
+:root {
+    --border-color: #e5e5ea;
+    --link-color: #714eff;
+    --grey-color: rgba(60, 60, 67, 0.8);
+    --grey-light-color: rgba(60, 60, 67, 0.5);
+    --card-background: rgba(240, 244, 253, 1);
+}

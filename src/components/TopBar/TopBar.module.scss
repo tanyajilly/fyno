@@ -1,0 +1,48 @@
+@import "../../variables.module.css";
+
+.top-bar {
+    display: flex;
+    padding: 32px 0;
+    @media (max-width: 767px) {
+        padding: 16px 0;
+    }
+}
+
+.breadcrumbs {
+    border: 1px solid var(--border-color);
+    display: flex;
+    border-radius: 16px;
+
+    li {
+        padding: 0 20px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 30px;
+        position: relative;
+
+        > div {
+            margin: 0 -20px;
+            padding: 0 20px;
+        }
+
+        @media (max-width: 767px) {
+            padding: 0 8px;
+
+            > div {
+                margin: 0 -8px;
+                padding: 0 8px;
+            }
+        }
+    }
+
+    li + li {
+        border-left: 1px solid var(--border-color);
+    }
+}
+
+.btn-side {
+    margin-left: auto;
+    svg {
+        margin: 4px;
+    }
+}

@@ -1,0 +1,28 @@
+.slider {
+    display: block;
+    .arrow {
+        position: absolute;
+        top: 144px;
+        width: 40px;
+        height: 40px;
+        background: #fff !important;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        cursor: pointer;
+
+        &:before {
+            display: none;
+        }
+
+        &:last-child {
+            right: 10px;
+        }
+        &:first-child {
+            left: 10px;
+            transform: rotate(180deg);
+        }
+    }
+}
