@@ -94,6 +94,7 @@ export const data = {
                     time: 1,
                     pick: true,
                     image: "7.png",
+                    day: 1,
                 },
                 {
                     id: 5,
@@ -102,6 +103,7 @@ export const data = {
                     time: 1,
                     pick: true,
                     image: "4.png",
+                    day: 1,
                 },
                 {
                     id: 6,
@@ -110,6 +112,7 @@ export const data = {
                     time: 1,
                     pick: false,
                     image: "6.png",
+                    day: 2,
                 },
             ],
             stay: [

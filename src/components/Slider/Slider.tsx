@@ -5,12 +5,13 @@ import "slick-carousel/slick/slick-theme.css";
 import type { Highlight, Stay } from "../../interfaces/location";
 import Slider from "react-slick";
 import classNames from "classnames";
+import type { CustomArrowProps } from "react-slick";
 
 interface SliderProps {
     items: Highlight[] | Stay[]
 }
 
-function NextArrow(props) {
+function NextArrow(props: CustomArrowProps) {
     const { className, onClick } = props;
     return (
         <div
@@ -24,7 +25,7 @@ function NextArrow(props) {
     );
 }
 
-function PrevArrow(props) {
+function PrevArrow(props: CustomArrowProps) {
     const { className, onClick } = props;
     return (
         <div
